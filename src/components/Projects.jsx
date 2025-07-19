@@ -1,47 +1,54 @@
 import { motion } from "framer-motion";
 import { useTheme } from "./ThemeContext";
+import passwordImg from '../assets/password.png';
+import quizImg from '../assets/quiz.jpg';
+import spotifyImg from '../assets/spotify.jpg';
+import todoImg from '../assets/todo.png';
+import portfolioImg from '../assets/portfolio.png';
+import textEncryptImg from '../assets/photo.jpg';
+import textUtilImg from '../assets/text.jpg';
 
 const projects = [
   { 
     title:"Password Manager",
     description: "Secure password storage and management tool using React.",    
-    image: "/src/assets/password.png",
+    image: passwordImg,
     link: "https://github.com/Singh327/Password-Manager",
   },
   {
     title: "Java Quiz App",
     description: "A desktop quiz app with login system using Java and MySQL.",
-    image: "/src/assets/quiz.jpg",
+    image: quizImg,
     link: "https://github.com/Singh327/Java-Quiz-Application",
   },
   {
     title: "Spotify Clone",
     description: "Responsive music streaming UI built with React and Tailwind.",
-    image: "/src/assets/spotify.jpg",
+    image: spotifyImg,
     link: "https://github.com/Singh327/Spotify-Clone",
   },
   {
     title: "Todo List App",
     description: "A simple todo list app with local storage using React.",  
-    image: "/src/assets/todo.png",
+    image: todoImg,
     link: "https://github.com/Singh327/ToDo-List",
   },
   {
     title:"Portfolio Website",
     description: "My personal portfolio showcasing projects and skills.", 
-    image: "/src/assets/portfolio.png",
+    image: portfolioImg,
     link: "#",
   },
    {
     title: "Text Encryption Project",
     description: "Encrypt/decrypt messages with a simple custom algorithm.",
-    image: "/src/assets/photo.jpg",
+    image: textEncryptImg,
     link: "https://github.com/Singh327/Python-project",
   },
   {
     title: "Text Utility App",
     description: "Text analysis and formatting tool using React.",
-    image: "/src/assets/text.jpg",
+    image: textUtilImg,
     link: "https://github.com/Singh327/Text-Utility-App-React-App-",
   },
   
