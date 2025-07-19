@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <a href="#" className="text-2xl font-bold tracking-tight text-blue-500">
-          Gurpreet.dev
+          Gurpreet Singh
         </a>
 
         {/* Desktop Menu */}

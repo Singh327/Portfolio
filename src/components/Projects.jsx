@@ -2,54 +2,53 @@ import { motion } from "framer-motion";
 import { useTheme } from "./ThemeContext";
 
 const projects = [
+  { 
+    title:"Password Manager",
+    description: "Secure password storage and management tool using React.",    
+    image: "/src/assets/password.png",
+    link: "https://github.com/Singh327/Password-Manager",
+  },
   {
     title: "Java Quiz App",
     description: "A desktop quiz app with login system using Java and MySQL.",
-    image: "https://via.placeholder.com/400x250.png?text=Java+Quiz+App",
+    image: "/src/assets/quiz.jpg",
     link: "https://github.com/Singh327/Java-Quiz-Application",
   },
   {
     title: "Spotify Clone",
     description: "Responsive music streaming UI built with React and Tailwind.",
-    image: "https://via.placeholder.com/400x250.png?text=Spotify+Clone",
+    image: "/src/assets/spotify.jpg",
     link: "https://github.com/Singh327/Spotify-Clone",
-  },
-  {
-    title: "Text Utility App",
-    description: "Text analysis and formatting tool using React.",
-    image: "https://via.placeholder.com/400x250.png?text=Text+Utility",
-    link: "https://github.com/Singh327/Text-Utility-App-React-App-",
-  },
-  {
-    title: "Text Encryption Project",
-    description: "Encrypt/decrypt messages with a simple custom algorithm.",
-    image: "https://via.placeholder.com/400x250.png?text=Encryption+Tool",
-    link: "https://github.com/Singh327/Python-project",
   },
   {
     title: "Todo List App",
     description: "A simple todo list app with local storage using React.",  
-    image: "https://via.placeholder.com/400x250.png?text=Todo+List+App",
-    link: "#",
-  },
-  { 
-    title:"Password Manager",
-    description: "Secure password storage and management tool using React.",    
-    image: "https://via.placeholder.com/400x250.png?text=Password+Manager",
-    link: "#",
-  },
-  {
-    title: "Weather App",
-    description: "Fetch and display weather data using OpenWeatherMap API.",
-    image: "https://via.placeholder.com/400x250.png?text=Weather+App",
-    link: "#",
+    image: "/src/assets/todo.png",
+    link: "https://github.com/Singh327/ToDo-List",
   },
   {
     title:"Portfolio Website",
     description: "My personal portfolio showcasing projects and skills.", 
-    image: "https://via.placeholder.com/400x250.png?text=Portfolio+Website",
+    image: "/src/assets/portfolio.png",
     link: "#",
-  }
+  },
+   {
+    title: "Text Encryption Project",
+    description: "Encrypt/decrypt messages with a simple custom algorithm.",
+    image: "/src/assets/photo.jpg",
+    link: "https://github.com/Singh327/Python-project",
+  },
+  {
+    title: "Text Utility App",
+    description: "Text analysis and formatting tool using React.",
+    image: "/src/assets/text.jpg",
+    link: "https://github.com/Singh327/Text-Utility-App-React-App-",
+  },
+  
+ 
+ 
+  
+  
 ];
 
 const Projects = () => {

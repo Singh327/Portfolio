@@ -57,7 +57,7 @@ const Hero = () => {
         transition={{ delay: 0.4, duration: 0.5 }}
       >
         <img
-          src="https://avatars.githubusercontent.com/u/9919?s=200&v="
+          src="/src/assets/myphoto.jpg"
           alt="profile"
           className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-blue-500 object-cover shadow-lg"
         />
