@@ -6,14 +6,14 @@ const Hero = () => {
   const { darkMode } = useTheme();
 
   return (
-    <section
-      id="home"
-      className={`min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-10 px-6 md:px-20 text-center md:text-left ${
-        darkMode
-          ? "bg-gradient-to-br from-[#1a1c2c] via-[#2a213b] to-[#3b1e45] text-white"
-          : "bg-gradient-to-br from-[#ffffff] via-[#e0f2ff] to-[#c7d2fe] text-black"
-      }`}
-    >
+   <section
+  id="home"
+  className={`scroll-mt-[100px] pt-[100px]  min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-10 px-6 md:px-20 text-center md:text-left ${
+    darkMode
+      ? "bg-gradient-to-br from-[#1a1c2c] via-[#2a213b] to-[#3b1e45] text-white"
+      : "bg-gradient-to-br from-[#ffffff] via-[#e0f2ff] to-[#c7d2fe] text-black"
+  }`}
+>
       {/* Text Content */}
       <div className="flex-1 space-y-6">
         <motion.h1
@@ -52,7 +52,7 @@ const Hero = () => {
 
       {/* Avatar Image */}
       <motion.div
-        className="flex-1 flex justify-center md:justify-end"
+        className="flex-1 flex justify-center md:justify-end "
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
