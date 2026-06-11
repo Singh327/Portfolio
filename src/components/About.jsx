@@ -61,7 +61,7 @@ const About = () => {
           </div>
           {/* Download Resume Button */}
           <motion.a
-            href="/Resume.pdf"
+            href="/Resume1.pdf"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
