@@ -7,8 +7,23 @@ import todoImg from '../assets/todo.png';
 import portfolioImg from '../assets/portfolio.png';
 import textEncryptImg from '../assets/photo.jpg';
 import textUtilImg from '../assets/text.jpg';
+import shopImg from '../assets/black-friday-elements-assortment.jpg'
+import docImg from '../assets/doctor-with-patient-hospital-doctor-working-office-listening-patient-she-is-explaining-her-symptoms-healtcare-assistance-concept.jpg'
 
 const projects = [
+  {
+    title: "E-commerce Application",
+    description: "Built a full-stack e-commerce platform with authentication, cart, and order management.",
+    image: shopImg,
+    link: "https://mern-project-1-09z5.onrender.com/auth/login",
+  },
+   {
+    title: "Doctor appointment Application",
+    description: "Developed a MERN-based doctor appointment platform with secure authentication, doctor management, and online appointment booking.",
+    image: docImg,
+    link: "https://docify-frontend-m72i.onrender.com/",
+  },
+  
   { 
     title:"Password Manager",
     description: "Secure password storage and management tool using React.",    
